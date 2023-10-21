@@ -4,8 +4,8 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 255, 255, 255;
-  --background-end-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 60;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,4 +24,22 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.rollingSwiper .swiper-button-prev,
+.rollingSwiper .swiper-button-next {
+  color: black;
+  opacity: 1;
+  transition: all 0.2s cubic-bezier(0, 0, 0.5, 1);
+  scale: 1.5;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.rollingSwiper .swiper-button-prev:hover,
+.rollingSwiper .swiper-button-next:hover {
+  opacity: 1;
+  scale: 1;
+  background-color: rgba(1, 16, 113, 0.5);
 }
