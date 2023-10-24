@@ -3,12 +3,16 @@ import Image from "next/image";
 import emotion from "@emotion/styled";
 import { useState } from "react";
 import OpacityCarousel from "@/components/OpacityCarousel";
+import Banner from "@/components/Banner";
 
 export default function Home() {
   const [swiper, setSwiper] = useState(false);
   return (
     <main className="max-w-7xl min-h-screen mx-auto flex flex-col items-center py-24 px-16 text-white">
-      <div className="text-3xl font-semibold py-6 ">{"Won's Studio"}</div>
+      <div className="text-3xl font-semibold pt-2 pb-6">
+        <Image src={"/images/title.svg"} width={300} height={100} alt="title" />
+      </div>
+      <Banner />
       <Grid>
         <div className="p-2 shadow-md flex flex-col justify-center items-center transition duration-200 ease-in-out transform">
           <div
