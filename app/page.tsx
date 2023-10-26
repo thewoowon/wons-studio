@@ -5,8 +5,20 @@ import { useState } from "react";
 import OpacityCarousel from "@/components/OpacityCarousel";
 import Banner from "@/components/Banner";
 
+const collection = [
+  {
+    title: "시간의 쌍곡선",
+    src: "/images/first-collection.png",
+  },
+  {
+    title: "공간사이",
+    src: "/images/space_distance_1.png",
+  },
+];
+
 export default function Home() {
   const [swiper, setSwiper] = useState(false);
+  const [collectionIndex, setCollectionIndex] = useState(0);
   return (
     <main className="max-w-7xl min-h-screen mx-auto flex flex-col items-center py-24 px-16 text-white">
       <div className="text-3xl font-semibold pt-2 pb-6">
@@ -14,26 +26,33 @@ export default function Home() {
       </div>
       <Banner />
       <Grid>
-        <div className="p-2 shadow-md flex flex-col justify-center items-center transition duration-200 ease-in-out transform">
+        {collection.map((item, index) => (
           <div
-            onClick={() => {
-              setSwiper(!swiper);
-            }}
+            key={index}
+            className="p-2 shadow-md flex flex-col justify-center items-center transition duration-200 ease-in-out transform"
           >
-            <Image
-              src={"/images/first-collection.png"}
-              alt="main"
-              width={297}
-              height={420}
-              className="transition duration-200 ease-in-out transform hover:scale-105"
-            />
+            <div
+              onClick={() => {
+                setCollectionIndex(index);
+                setSwiper(!swiper);
+              }}
+            >
+              <Image
+                src={item.src}
+                alt="main"
+                width={297}
+                height={420}
+                className="transition duration-200 ease-in-out transform hover:scale-105"
+              />
+            </div>
+            <div className="text-lg pt-6 pb-2">{item.title}</div>
+            <div className="text-sm">created by Won Woo</div>
           </div>
-          <div className="text-lg pt-6 pb-2">시간의 쌍곡선</div>
-          <div className="text-sm">created by Won Woo</div>
-        </div>
+        ))}
       </Grid>
       {swiper && (
         <OpacityCarousel
+          collectionIndex={collectionIndex}
           onClose={() => {
             setSwiper(!swiper);
           }}
