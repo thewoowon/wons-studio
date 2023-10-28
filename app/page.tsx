@@ -14,6 +14,10 @@ const collection = [
     title: "공간사이",
     src: "/images/space_distance_1.png",
   },
+  {
+    title: "선택적 진실",
+    src: "/images/selective_truth_1.png",
+  },
 ];
 
 export default function Home() {
@@ -52,7 +56,7 @@ export default function Home() {
       </Grid>
       {swiper && (
         <OpacityCarousel
-          collectionIndex={collectionIndex}
+          indicator={collectionIndex}
           onClose={() => {
             setSwiper(!swiper);
           }}
