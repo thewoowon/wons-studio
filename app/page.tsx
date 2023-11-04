@@ -18,6 +18,14 @@ const collection = [
     title: "선택적 진실",
     src: "/images/selective_truth_1.png",
   },
+  {
+    title: "빛의 흐름",
+    src: "/images/flow_of_light_1.png",
+  },
+  {
+    title: "겨울소리",
+    src: "/images/winter_sound_1.png",
+  },
 ];
 
 export default function Home() {
@@ -25,10 +33,10 @@ export default function Home() {
   const [collectionIndex, setCollectionIndex] = useState(0);
   return (
     <main className="max-w-7xl min-h-screen mx-auto flex flex-col items-center py-24 px-16 text-white">
-      <div className="text-3xl font-semibold pt-2 pb-6">
+      <div className="text-3xl font-semibold pt-2 pb-16">
         <Image src={"/images/title.svg"} width={300} height={100} alt="title" />
       </div>
-      <Banner />
+      {/* <Banner /> */}
       <Grid>
         {collection.map((item, index) => (
           <div

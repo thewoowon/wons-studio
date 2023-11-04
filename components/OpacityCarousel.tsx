@@ -36,6 +36,18 @@ const board: {
   {
     description:
       "가변적인 인간의 사고, 그 속에서 불변의 진리를 찾아 선택적 진실이라는 모래성을 부수고 가장 가까운 진실에 다가선다.",
+    collection: [
+      "https://imagedelivery.net/6qzLODAqs2g1LZbVYqtuQw/c331cc74-925d-4f05-eb75-6bfcb1a20a00/public",
+      "https://imagedelivery.net/6qzLODAqs2g1LZbVYqtuQw/79e73ffc-d9e9-42d7-0b9e-55aa60a55500/public",
+      "https://imagedelivery.net/6qzLODAqs2g1LZbVYqtuQw/9d04bfde-f255-4492-da54-2d4d35a12b00/public",
+    ],
+  },
+  {
+    description: "유리 속에서 빛은 더욱 빛이난다.",
+    collection: [],
+  },
+  {
+    description: "겨울소리, 어느덧 겨울의 소리가 들리기 시작한다.",
     collection: [],
   },
 ];
