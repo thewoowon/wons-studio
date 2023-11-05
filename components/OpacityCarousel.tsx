@@ -47,8 +47,13 @@ const board: {
     collection: [],
   },
   {
-    description: "겨울소리, 어느덧 겨울의 소리가 들리기 시작한다.",
-    collection: [],
+    description: "어느덧 겨울소리가 들리기 시작한다.",
+    collection: [
+      "https://imagedelivery.net/6qzLODAqs2g1LZbVYqtuQw/ac3ae0f9-7c4f-4691-6c5c-a18a2b6b5500/public",
+      "https://imagedelivery.net/6qzLODAqs2g1LZbVYqtuQw/3024fd09-dc02-4aea-f7ce-da6d4a053c00/public",
+      "https://imagedelivery.net/6qzLODAqs2g1LZbVYqtuQw/56d8c09a-eae7-4fa2-f5e5-d731efee6600/public",
+      "https://imagedelivery.net/6qzLODAqs2g1LZbVYqtuQw/295d0667-83f3-446b-e5ef-c8be26e12000/public",
+    ],
   },
 ];
 
