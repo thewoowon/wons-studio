@@ -55,6 +55,11 @@ const board: {
       "https://imagedelivery.net/6qzLODAqs2g1LZbVYqtuQw/295d0667-83f3-446b-e5ef-c8be26e12000/public",
     ],
   },
+  {
+    description:
+      "기억은 끊임없이 반복되고 변화한다. 인간의 자조적인 기억은 더욱 그렇다.",
+    collection: [],
+  },
 ];
 
 type OpacityCarouselProps = {

@@ -26,6 +26,10 @@ const collection = [
     title: "겨울소리",
     src: "/images/winter_sound_1.png",
   },
+  {
+    title: "기억의 물레",
+    src: "/images/spinning_wheel_1.png",
+  },
 ];
 
 export default function Home() {
