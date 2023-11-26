@@ -30,6 +30,10 @@ const collection = [
     title: "기억의 물레",
     src: "/images/spinning_wheel_1.png",
   },
+  {
+    title: "자연수",
+    src: "/images/mathematics_1.png",
+  },
 ];
 
 export default function Home() {

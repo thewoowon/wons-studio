@@ -60,6 +60,10 @@ const board: {
       "기억은 끊임없이 반복되고 변화한다. 인간의 자조적인 기억은 더욱 그렇다.",
     collection: [],
   },
+  {
+    description: "수학의 기초를 이루는 무한한 자연수의 집합.",
+    collection: [],
+  },
 ];
 
 type OpacityCarouselProps = {
