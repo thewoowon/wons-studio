@@ -34,6 +34,10 @@ const collection = [
     title: "자연수",
     src: "/images/mathematics_1.png",
   },
+  {
+    title: "알 수 없는",
+    src: "/images/unknown_1.png",
+  },
 ];
 
 export default function Home() {

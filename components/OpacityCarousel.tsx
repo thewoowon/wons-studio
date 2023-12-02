@@ -68,6 +68,10 @@ const board: {
       "https://imagedelivery.net/6qzLODAqs2g1LZbVYqtuQw/9835b071-3747-4a66-2c44-4cdce9397900/public",
     ],
   },
+  {
+    description: "알 수 없다.",
+    collection: [],
+  },
 ];
 
 type OpacityCarouselProps = {
