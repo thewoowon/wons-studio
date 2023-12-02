@@ -62,7 +62,11 @@ const board: {
   },
   {
     description: "수학의 기초를 이루는 무한한 자연수의 집합.",
-    collection: [],
+    collection: [
+      "https://imagedelivery.net/6qzLODAqs2g1LZbVYqtuQw/dec6b7ce-592f-430f-954e-b8019e039000/public",
+      "https://imagedelivery.net/6qzLODAqs2g1LZbVYqtuQw/654d79d0-29cb-4dc6-a4ff-cbcd8bc42e00/public",
+      "https://imagedelivery.net/6qzLODAqs2g1LZbVYqtuQw/9835b071-3747-4a66-2c44-4cdce9397900/public",
+    ],
   },
 ];
 
