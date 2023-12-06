@@ -72,6 +72,10 @@ const board: {
     description: "알 수 없다.",
     collection: [],
   },
+  {
+    description: "허무의 공간을 떠도는 무의미한 존재.",
+    collection: [],
+  },
 ];
 
 type OpacityCarouselProps = {

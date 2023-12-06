@@ -38,6 +38,10 @@ const collection = [
     title: "알 수 없는",
     src: "/images/unknown_1.png",
   },
+  {
+    title: "우주인",
+    src: "/images/astronaut_1.png",
+  },
 ];
 
 export default function Home() {
