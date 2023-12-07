@@ -74,7 +74,11 @@ const board: {
   },
   {
     description: "허무의 공간을 떠도는 무의미한 존재.",
-    collection: [],
+    collection: [
+      "https://imagedelivery.net/6qzLODAqs2g1LZbVYqtuQw/6b6a656c-1073-406d-dfff-a9f461c2f200/public",
+      "https://imagedelivery.net/6qzLODAqs2g1LZbVYqtuQw/4df5ca81-3e64-458a-ebb9-0be8a0fb1b00/public",
+      "https://imagedelivery.net/6qzLODAqs2g1LZbVYqtuQw/d61760be-1538-4780-b7e4-4d189f341d00/public",
+    ],
   },
 ];
 
