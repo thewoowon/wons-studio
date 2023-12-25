@@ -80,6 +80,10 @@ const board: {
       "https://imagedelivery.net/6qzLODAqs2g1LZbVYqtuQw/d61760be-1538-4780-b7e4-4d189f341d00/public",
     ],
   },
+  {
+    description: "윤회와 인과율의 개념",
+    collection: [],
+  },
 ];
 
 type OpacityCarouselProps = {

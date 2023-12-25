@@ -42,6 +42,10 @@ const collection = [
     title: "우주인",
     src: "/images/astronaut_1.png",
   },
+  {
+    title: "순환의 고리",
+    src: "/images/ring_main_1.png",
+  },
 ];
 
 export default function Home() {
