@@ -84,6 +84,14 @@ const board: {
     description: "윤회와 인과율의 개념",
     collection: [],
   },
+  {
+    description: "디지털로 재해석한 달, 그리고 그 달의 빛.",
+    collection: [],
+  },
+  {
+    description: "질성정연은 고정된 질서를 의미하는 것이 아니다.",
+    collection: [],
+  },
 ];
 
 type OpacityCarouselProps = {

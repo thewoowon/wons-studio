@@ -46,6 +46,14 @@ const collection = [
     title: "순환의 고리",
     src: "/images/ring_main_1.png",
   },
+  {
+    title: "디지털 문",
+    src: "/images/digital_moon_1.png",
+  },
+  {
+    title: "질서정연",
+    src: "/images/alignment_1.png",
+  },
 ];
 
 export default function Home() {
