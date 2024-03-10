@@ -92,6 +92,14 @@ const board: {
     description: "질성정연은 고정된 질서를 의미하는 것이 아니다.",
     collection: [],
   },
+  {
+    description: "미로의 끝에 보이는 빛과 새로운 시작.",
+    collection: [],
+  },
+  {
+    description: "시대정신, 그리고 세제곱",
+    collection: [],
+  },
 ];
 
 type OpacityCarouselProps = {

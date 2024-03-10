@@ -54,6 +54,14 @@ const collection = [
     title: "질서정연",
     src: "/images/alignment_1.png",
   },
+  {
+    title: "미로의 끝",
+    src: "/images/end_of_miro.png",
+  },
+  {
+    title: "시대정신",
+    src: "/images/spirit.png",
+  },
 ];
 
 export default function Home() {
