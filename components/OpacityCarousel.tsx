@@ -100,6 +100,17 @@ const board: {
     description: "시대정신, 그리고 세제곱",
     collection: [],
   },
+  {
+    description: "ENCHANTMENT, 마법의 순간",
+    collection: [
+      "https://imagedelivery.net/6qzLODAqs2g1LZbVYqtuQw/a3adf399-674b-4327-66ec-63321d1eca00/public",
+      "https://imagedelivery.net/6qzLODAqs2g1LZbVYqtuQw/43d498b9-6da7-4994-b6f3-47abbaec8200/public",
+      "https://imagedelivery.net/6qzLODAqs2g1LZbVYqtuQw/ce5352bb-667a-4cde-aade-27d07c682600/public",
+      "https://imagedelivery.net/6qzLODAqs2g1LZbVYqtuQw/f0a78904-be51-45a3-8d67-ba31d3906900/public",
+      "https://imagedelivery.net/6qzLODAqs2g1LZbVYqtuQw/76ff955b-4337-4f32-1b56-067faea51a00/public",
+      "https://imagedelivery.net/6qzLODAqs2g1LZbVYqtuQw/e2dfc078-0736-4164-fddc-10dadba64e00/public",
+    ],
+  },
 ];
 
 type OpacityCarouselProps = {
