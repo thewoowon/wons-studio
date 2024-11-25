@@ -62,6 +62,10 @@ const collection = [
     title: "시대정신",
     src: "/images/spirit.png",
   },
+  {
+    title: "ENCHANTMENT",
+    src: "/images/enchantment_1.png",
+  },
 ];
 
 export default function Home() {
