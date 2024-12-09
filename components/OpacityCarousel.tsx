@@ -111,6 +111,15 @@ const board: {
       "https://imagedelivery.net/6qzLODAqs2g1LZbVYqtuQw/e2dfc078-0736-4164-fddc-10dadba64e00/public",
     ],
   },
+  {
+    description: "대면, 얼굴과 얼굴이 마주하는 순간",
+    collection: [
+      "https://imagedelivery.net/6qzLODAqs2g1LZbVYqtuQw/1277c270-160a-4e1e-7454-7886bb131100/public",
+      "https://imagedelivery.net/6qzLODAqs2g1LZbVYqtuQw/f50d5ce3-4f2c-43af-ef31-8cfe0d257300/public",
+      "https://imagedelivery.net/6qzLODAqs2g1LZbVYqtuQw/689a9826-4ca3-493d-47c0-bcffac275800/public",
+      "https://imagedelivery.net/6qzLODAqs2g1LZbVYqtuQw/71896960-0e1a-49d5-a66f-4e751c677100/public",
+    ],
+  },
 ];
 
 type OpacityCarouselProps = {

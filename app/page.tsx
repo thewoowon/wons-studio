@@ -66,6 +66,10 @@ const collection = [
     title: "ENCHANTMENT",
     src: "/images/enchantment_1.png",
   },
+  {
+    title: "대면",
+    src: "/images/face_to_face_1.png",
+  },
 ];
 
 export default function Home() {
