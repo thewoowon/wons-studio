@@ -120,6 +120,10 @@ const board: {
       "https://imagedelivery.net/6qzLODAqs2g1LZbVYqtuQw/71896960-0e1a-49d5-a66f-4e751c677100/public",
     ],
   },
+  {
+    description: "관심, 고요함을 밖에서 찾지 말고 자신 안에서 찾으라",
+    collection: [],
+  },
 ];
 
 type OpacityCarouselProps = {

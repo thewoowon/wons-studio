@@ -70,6 +70,10 @@ const collection = [
     title: "대면",
     src: "/images/face_to_face_1.png",
   },
+  {
+    title: "관심",
+    src: "/images/buddha.png",
+  },
 ];
 
 export default function Home() {
