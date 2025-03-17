@@ -74,6 +74,10 @@ const collection = [
     title: "관심",
     src: "/images/buddha.png",
   },
+  {
+    title: "아트",
+    src: "/images/grid_art.png",
+  },
 ];
 
 export default function Home() {

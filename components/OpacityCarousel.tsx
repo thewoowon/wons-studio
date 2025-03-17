@@ -124,6 +124,10 @@ const board: {
     description: "관심, 고요함을 밖에서 찾지 말고 자신 안에서 찾으라",
     collection: [],
   },
+  {
+    description: "그리드, 영원한, X",
+    collection: [],
+  },
 ];
 
 type OpacityCarouselProps = {
